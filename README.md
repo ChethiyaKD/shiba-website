@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐕 SHIBA Token Website
 
-## Getting Started
+A modern, responsive website for tracking and displaying information about the SHIBA token, built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+![SHIBA Token Website](public/preview.png)
 
+## ✨ Features
+
+- 📊 Real-time price tracking and chart visualization
+- 💰 Detailed tokenomics breakdown
+- 📈 Interactive price charts with multiple timeframes
+- 🎨 Modern, responsive design with dark theme
+- ⚡ Fast performance with Next.js
+- 🔄 Live market data updates
+- 📱 Mobile-friendly interface
+
+## 🛠 Tech Stack
+
+- [Next.js](https://nextjs.org/) - React framework for production
+- [TypeScript](https://www.typescriptlang.org/) - Static type checking
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Recharts](https://recharts.org/) - Composable charting library
+- [React](https://reactjs.org/) - UI library
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v14+ recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/shiba-website.git
+cd shiba-website
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+shiba-website/
+├── public/           # Static assets
+├── src/
+│   ├── app/         # Next.js app directory
+│   ├── components/  # React components
+│   ├── styles/      # Global styles
+│   └── types/       # TypeScript type definitions
+├── tailwind.config.js
+└── package.json
+```
 
-## Learn More
+## 🧩 Components
 
-To learn more about Next.js, take a look at the following resources:
+- `Chart.tsx` - Interactive price chart with multiple timeframes
+- `Tokenomics.tsx` - Token distribution and details
+- `PriceDisplay.tsx` - Current price and basic stats
+- `HypeMeter.tsx` - Community engagement indicator
+- `Navbar.tsx` - Navigation and wallet connection
+- `Footer.tsx` - Site footer with links and info
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Colors
+The website uses a custom color palette that can be modified in `tailwind.config.js`:
+- Primary: Orange (#fb923c)
+- Background: Dark Blue (#0f1623)
+- Card Background: Darker Blue (#1a1f2e)
+- Text: White and Gray variations
 
-## Deploy on Vercel
+### Animations
+Custom animations are defined in `tailwind.config.js` including:
+- Float
+- Bounce
+- Pulse
+- Spin
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📱 Responsive Design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The website is fully responsive with breakpoints for:
+- Mobile: < 640px
+- Tablet: 640px - 1024px
+- Desktop: > 1024px
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Authors
+
+- Your Name - Initial work
+
+## 🙏 Acknowledgments
+
+- Shiba community
+- Next.js team
+- Tailwind CSS team
+- Recharts contributors 
