@@ -8,7 +8,6 @@ import Tokenomics from '@/components/Tokenomics';
 import HypeMeter from '@/components/HypeMeter';
 import Footer from '@/components/Footer';
 import { Star, Sparkle, Wave, ShibaFace, Bone, PawPrint } from '@/components/Doodles';
-import Image from 'next/image';
 
 const FeatureCard = ({ title, description, icon: Icon }: { title: string; description: string; icon: React.ComponentType<{ className?: string }> }) => (
   <div className="bg-[#1a1f2e] rounded-2xl p-6 hover:scale-105 transition-transform group">
@@ -61,7 +60,7 @@ export default function Home() {
                 <span className="text-orange-400 block mt-2">Meme Finance</span>
               </h1>
               <p className="text-gray-400 text-lg sm:text-xl mb-8 max-w-lg mx-auto lg:mx-0">
-                Join the pack and be part of the most vibrant crypto community. SHIBA isn't just a token, it's a movement.
+                Join the pack and be part of the most vibrant crypto community. SHIBA isn&apos;t just a token, it&apos;s a movement.
               </p>
               <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
                 <button className="bg-orange-400 text-white px-8 py-4 rounded-full font-bold hover:bg-orange-500 transition-all duration-300 transform hover:scale-105 group">
